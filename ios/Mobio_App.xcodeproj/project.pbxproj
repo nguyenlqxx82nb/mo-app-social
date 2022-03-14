@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* Mobio_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Mobio_AppTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Assets.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		93368D04582F94421721DEF8 /* libPods-Mobio_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F96D8BB9788A0C0A5720F97 /* libPods-Mobio_App.a */; };
+		C0EB2D53A860485BA76D0148 /* MobioAppIncomingTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = 084AC818C2694B7B8994C009 /* MobioAppIncomingTests.xctest */; };
+		CB06617A25EE48F200F30E91 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CB06617925EE48F200F30E91 /* NotificationService.m */; };
+		CB06617E25EE48F200F30E91 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB06617625EE48F200F30E91 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CB36569F25CE98F600AD9785 /* RNCallCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36569E25CE98F600AD9785 /* RNCallCenter.m */; };
+		CB3656F625CEFAC800AD9785 /* CallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3656F525CEFAC800AD9785 /* CallManager.m */; };
+		CB4A267E26006372009637D6 /* RNPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4A267D26006372009637D6 /* RNPushNotification.m */; };
+		CB625BD5262A9763008CBCA5 /* AssignTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB625BD3262A9763008CBCA5 /* AssignTableViewCell.m */; };
+		CB625BD6262A9763008CBCA5 /* AssignTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB625BD4262A9763008CBCA5 /* AssignTableViewCell.xib */; };
+		CB71D0B6268E151C007BE333 /* MoFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = CB71D0B5268E151C007BE333 /* MoFingerprint.m */; };
+		CB71EB7B25D0DDB0009EA545 /* StringeeImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = CB71EB7825D0DDB0009EA545 /* StringeeImplement.m */; };
+		CB71EB7C25D0DDB0009EA545 /* InstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB71EB7925D0DDB0009EA545 /* InstanceManager.m */; };
+		CB8DF8AF26DB415700020876 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8DF8AE26DB415700020876 /* logo.png */; };
+		CB9C8A4A2562CD5A0075B574 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A3D2562CD150075B574 /* icomoon.ttf */; };
+		CB9C8A4B2562CD5A0075B574 /* SF-Pro-Text-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A412562CD160075B574 /* SF-Pro-Text-Bold.ttf */; };
+		CB9C8A4C2562CD5A0075B574 /* SF-Pro-Text-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A3F2562CD150075B574 /* SF-Pro-Text-Medium.ttf */; };
+		CB9C8A4D2562CD5A0075B574 /* SF-Pro-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A3C2562CD150075B574 /* SF-Pro-Text-Regular.ttf */; };
+		CB9C8A4E2562CD5A0075B574 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A3E2562CD150075B574 /* SFProText-Bold.ttf */; };
+		CB9C8A4F2562CD5A0075B574 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9C8A402562CD150075B574 /* SFProText-Semibold.ttf */; };
+		CBBB043725DE4A200097C2AC /* CallingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBBB043525DE4A200097C2AC /* CallingViewController.xib */; };
+		CBBB043825DE4A200097C2AC /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBB043625DE4A200097C2AC /* CallingViewController.m */; };
+		CBBB044125DE6ED80097C2AC /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6688925DAAABC00B7DB47 /* RoundedButton.m */; };
+		CBBB046A25E127D00097C2AC /* CallUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBB046925E127D00097C2AC /* CallUtils.m */; };
+		CBCD9F5025E39B10007C3495 /* NumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCD9F4F25E39B10007C3495 /* NumberPadView.xib */; };
+		CBCD9F6A25E3C5D5007C3495 /* NumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD9F6925E3C5D5007C3495 /* NumberPadView.m */; };
+		CBDE2FB72628473E0043ACC7 /* AssignView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDE2FB62628473E0043ACC7 /* AssignView.xib */; };
+		CBDE2FC0262892680043ACC7 /* AssignView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE2FBF262892670043ACC7 /* AssignView.m */; };
+		CBDEDE3125D781E00021AF68 /* CallControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDEDE3025D781E00021AF68 /* CallControl.m */; };
+		CBDEDE3825D781F30021AF68 /* CallKitCall.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDEDE3725D781F30021AF68 /* CallKitCall.m */; };
+		DB046A5D95824486B1A1DE43 /* MobioAppIncoming.app in Frameworks */ = {isa = PBXBuildFile; fileRef = A18797C17BA6425AAEDE802D /* MobioAppIncoming.app */; };
+		DDA8B0BFA56C65AF6F5754A8 /* libPods-Mobio_App-Mobio_AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C8D9ABC1C64A0B1BE2E5B1 /* libPods-Mobio_App-Mobio_AppTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Mobio_App;
+		};
+		CB06617C25EE48F200F30E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB06617525EE48F200F30E91;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB06616625EE31AF00F30E91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CB06617E25EE48F200F30E91 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* Mobio_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mobio_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Mobio_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobio_AppTests.m; sourceTree = "<group>"; };
+		011261F20855366EE52BE224 /* Pods-Mobio_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App.release.xcconfig"; path = "Target Support Files/Pods-Mobio_App/Pods-Mobio_App.release.xcconfig"; sourceTree = "<group>"; };
+		05C4FCD1A6654C5698E6B199 /* MobioAppIncoming.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = MobioAppIncoming.xcodeproj; path = "../node_modules/mo-app-incoming-call/ios/MobioAppIncoming.xcodeproj"; sourceTree = "<group>"; };
+		084AC818C2694B7B8994C009 /* MobioAppIncomingTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MobioAppIncomingTests.xctest; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Mobio_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobio_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mobio_App/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mobio_App/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Mobio_App/Assets.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mobio_App/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mobio_App/main.m; sourceTree = "<group>"; };
+		462B8D2D8A5D4880970FCE2E /* MobioAppIncoming-tvOS.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "MobioAppIncoming-tvOS.app"; sourceTree = "<group>"; };
+		47C62993FDD00AF7524DB2BE /* Pods-Mobio_App-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Mobio_App-tvOS/Pods-Mobio_App-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4CB5F7C7F526DB97229D22F9 /* Pods-Mobio_App-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Mobio_App-tvOS/Pods-Mobio_App-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2044EE3F64C16FC39B50C1 /* Pods-Mobio_App-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Mobio_App-tvOSTests/Pods-Mobio_App-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F96D8BB9788A0C0A5720F97 /* libPods-Mobio_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobio_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE96781596666EC5720103D /* libPods-Mobio_App-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobio_App-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F51257417700D4419243589 /* Pods-Mobio_App-Mobio_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-Mobio_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81298FBD32065D402535193F /* Pods-Mobio_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App.debug.xcconfig"; path = "Target Support Files/Pods-Mobio_App/Pods-Mobio_App.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Mobio_App/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C8D9ABC1C64A0B1BE2E5B1 /* libPods-Mobio_App-Mobio_AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobio_App-Mobio_AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18797C17BA6425AAEDE802D /* MobioAppIncoming.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MobioAppIncoming.app; sourceTree = "<group>"; };
+		BDF3C59C9E57C1784F1BC95F /* Pods-Mobio_App-Mobio_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-Mobio_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB06617625EE48F200F30E91 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB06617825EE48F200F30E91 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		CB06617925EE48F200F30E91 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		CB06617B25EE48F200F30E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB36569E25CE98F600AD9785 /* RNCallCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNCallCenter.m; path = Mobio_App/CallCenter/RNCallCenter.m; sourceTree = SOURCE_ROOT; };
+		CB3656F425CEFAB300AD9785 /* CallManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CallManager.h; path = Mobio_App/CallCenter/CallManager.h; sourceTree = SOURCE_ROOT; };
+		CB3656F525CEFAC800AD9785 /* CallManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CallManager.m; path = Mobio_App/CallCenter/CallManager.m; sourceTree = SOURCE_ROOT; };
+		CB4A267C2600633C009637D6 /* RNPushNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNPushNotification.h; path = Mobio_App/PushNotification/RNPushNotification.h; sourceTree = SOURCE_ROOT; };
+		CB4A267D26006372009637D6 /* RNPushNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNPushNotification.m; path = Mobio_App/PushNotification/RNPushNotification.m; sourceTree = SOURCE_ROOT; };
+		CB625BD2262A9763008CBCA5 /* AssignTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AssignTableViewCell.h; path = Mobio_App/CallCenter/CallingVC/AssignTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		CB625BD3262A9763008CBCA5 /* AssignTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AssignTableViewCell.m; path = Mobio_App/CallCenter/CallingVC/AssignTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		CB625BD4262A9763008CBCA5 /* AssignTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AssignTableViewCell.xib; path = Mobio_App/CallCenter/CallingVC/AssignTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		CB71D0B4268E14ED007BE333 /* MoFingerprint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MoFingerprint.h; path = Mobio_App/Fingerprint/MoFingerprint.h; sourceTree = "<group>"; };
+		CB71D0B5268E151C007BE333 /* MoFingerprint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MoFingerprint.m; path = Mobio_App/Fingerprint/MoFingerprint.m; sourceTree = "<group>"; };
+		CB71EB6325D0DADF009EA545 /* RNCallCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNCallCenter.h; path = Mobio_App/CallCenter/RNCallCenter.h; sourceTree = SOURCE_ROOT; };
+		CB71EB7725D0DDB0009EA545 /* StringeeImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringeeImplement.h; path = Mobio_App/CallCenter/StringeeImplement.h; sourceTree = SOURCE_ROOT; };
+		CB71EB7825D0DDB0009EA545 /* StringeeImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringeeImplement.m; path = Mobio_App/CallCenter/StringeeImplement.m; sourceTree = SOURCE_ROOT; };
+		CB71EB7925D0DDB0009EA545 /* InstanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstanceManager.m; path = Mobio_App/CallCenter/InstanceManager.m; sourceTree = SOURCE_ROOT; };
+		CB71EB7A25D0DDB0009EA545 /* InstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstanceManager.h; path = Mobio_App/CallCenter/InstanceManager.h; sourceTree = SOURCE_ROOT; };
+		CB71EB8125D0EC50009EA545 /* Mobio_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Mobio_App.entitlements; path = Mobio_App/Mobio_App.entitlements; sourceTree = "<group>"; };
+		CB8DF8AE26DB415700020876 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		CB9C8A3C2562CD150075B574 /* SF-Pro-Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.ttf"; path = "../assets/fonts/SF-Pro-Text-Regular.ttf"; sourceTree = "<group>"; };
+		CB9C8A3D2562CD150075B574 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = ../assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		CB9C8A3E2562CD150075B574 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.ttf"; path = "../assets/fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		CB9C8A3F2562CD150075B574 /* SF-Pro-Text-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.ttf"; path = "../assets/fonts/SF-Pro-Text-Medium.ttf"; sourceTree = "<group>"; };
+		CB9C8A402562CD150075B574 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.ttf"; path = "../assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		CB9C8A412562CD160075B574 /* SF-Pro-Text-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.ttf"; path = "../assets/fonts/SF-Pro-Text-Bold.ttf"; sourceTree = "<group>"; };
+		CBBB043425DE4A200097C2AC /* CallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallingViewController.h; path = Mobio_App/CallCenter/CallingVC/CallingViewController.h; sourceTree = SOURCE_ROOT; };
+		CBBB043525DE4A200097C2AC /* CallingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CallingViewController.xib; path = Mobio_App/CallCenter/CallingVC/CallingViewController.xib; sourceTree = SOURCE_ROOT; };
+		CBBB043625DE4A200097C2AC /* CallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallingViewController.m; path = Mobio_App/CallCenter/CallingVC/CallingViewController.m; sourceTree = SOURCE_ROOT; };
+		CBBB046825E127D00097C2AC /* CallUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallUtils.h; path = Mobio_App/CallCenter/CallUtils.h; sourceTree = SOURCE_ROOT; };
+		CBBB046925E127D00097C2AC /* CallUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallUtils.m; path = Mobio_App/CallCenter/CallUtils.m; sourceTree = SOURCE_ROOT; };
+		CBC6688825DAAA8400B7DB47 /* RoundedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoundedButton.h; path = Mobio_App/RoundedButton.h; sourceTree = "<group>"; };
+		CBC6688925DAAABC00B7DB47 /* RoundedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RoundedButton.m; path = Mobio_App/RoundedButton.m; sourceTree = "<group>"; };
+		CBCD9F4F25E39B10007C3495 /* NumberPadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NumberPadView.xib; path = Mobio_App/CallCenter/CallingVC/NumberPadView.xib; sourceTree = SOURCE_ROOT; };
+		CBCD9F6825E3C5D5007C3495 /* NumberPadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumberPadView.h; path = Mobio_App/CallCenter/CallingVC/NumberPadView.h; sourceTree = SOURCE_ROOT; };
+		CBCD9F6925E3C5D5007C3495 /* NumberPadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NumberPadView.m; path = Mobio_App/CallCenter/CallingVC/NumberPadView.m; sourceTree = SOURCE_ROOT; };
+		CBDE2FB62628473E0043ACC7 /* AssignView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AssignView.xib; path = Mobio_App/CallCenter/CallingVC/AssignView.xib; sourceTree = SOURCE_ROOT; };
+		CBDE2FBE2628917C0043ACC7 /* AssignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AssignView.h; path = Mobio_App/CallCenter/CallingVC/AssignView.h; sourceTree = SOURCE_ROOT; };
+		CBDE2FBF262892670043ACC7 /* AssignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AssignView.m; path = Mobio_App/CallCenter/CallingVC/AssignView.m; sourceTree = SOURCE_ROOT; };
+		CBDEDE2F25D781DF0021AF68 /* CallControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallControl.h; path = Mobio_App/CallCenter/CallingVC/CallControl.h; sourceTree = SOURCE_ROOT; };
+		CBDEDE3025D781E00021AF68 /* CallControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallControl.m; path = Mobio_App/CallCenter/CallingVC/CallControl.m; sourceTree = SOURCE_ROOT; };
+		CBDEDE3625D781F30021AF68 /* CallKitCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallKitCall.h; path = Mobio_App/CallCenter/CallKitCall.h; sourceTree = SOURCE_ROOT; };
+		CBDEDE3725D781F30021AF68 /* CallKitCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallKitCall.m; path = Mobio_App/CallCenter/CallKitCall.m; sourceTree = SOURCE_ROOT; };
+		DCEBB950538E0F81FE0A414B /* Pods-Mobio_App-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobio_App-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Mobio_App-tvOSTests/Pods-Mobio_App-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E41170EF2C6E48CB9740BB5E /* MobioAppIncoming-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "MobioAppIncoming-tvOSTests.xctest"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F35E0FB5450E2EDDF0C18DD9 /* libPods-Mobio_App-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobio_App-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA8B0BFA56C65AF6F5754A8 /* libPods-Mobio_App-Mobio_AppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93368D04582F94421721DEF8 /* libPods-Mobio_App.a in Frameworks */,
+				DB046A5D95824486B1A1DE43 /* MobioAppIncoming.app in Frameworks */,
+				C0EB2D53A860485BA76D0148 /* MobioAppIncomingTests.xctest in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB06617325EE48F200F30E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* Mobio_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* Mobio_AppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = Mobio_AppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Mobio_App */ = {
+			isa = PBXGroup;
+			children = (
+				CB71D0B3268E13BE007BE333 /* Fingerprint */,
+				CB4A267826006264009637D6 /* PushNotification */,
+				CB71EB8125D0EC50009EA545 /* Mobio_App.entitlements */,
+				CB36569C25CE986400AD9785 /* CallCenter */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Assets.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				CBC6688825DAAA8400B7DB47 /* RoundedButton.h */,
+				CBC6688925DAAABC00B7DB47 /* RoundedButton.m */,
+			);
+			name = Mobio_App;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				5F96D8BB9788A0C0A5720F97 /* libPods-Mobio_App.a */,
+				84C8D9ABC1C64A0B1BE2E5B1 /* libPods-Mobio_App-Mobio_AppTests.a */,
+				6CE96781596666EC5720103D /* libPods-Mobio_App-tvOS.a */,
+				F35E0FB5450E2EDDF0C18DD9 /* libPods-Mobio_App-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				05C4FCD1A6654C5698E6B199 /* MobioAppIncoming.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				CB9C8A082562CCDC0075B574 /* Resources */,
+				13B07FAE1A68108700A75B9A /* Mobio_App */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* Mobio_AppTests */,
+				CB06617725EE48F200F30E91 /* NotificationService */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9D55B9CDABA685D21324051A /* Pods */,
+				CB7C45BB25CCE777002A8B22 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Mobio_App.app */,
+				00E356EE1AD99517003FC87E /* Mobio_AppTests.xctest */,
+				CB06617625EE48F200F30E91 /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D55B9CDABA685D21324051A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81298FBD32065D402535193F /* Pods-Mobio_App.debug.xcconfig */,
+				011261F20855366EE52BE224 /* Pods-Mobio_App.release.xcconfig */,
+				7F51257417700D4419243589 /* Pods-Mobio_App-Mobio_AppTests.debug.xcconfig */,
+				BDF3C59C9E57C1784F1BC95F /* Pods-Mobio_App-Mobio_AppTests.release.xcconfig */,
+				4CB5F7C7F526DB97229D22F9 /* Pods-Mobio_App-tvOS.debug.xcconfig */,
+				47C62993FDD00AF7524DB2BE /* Pods-Mobio_App-tvOS.release.xcconfig */,
+				5C2044EE3F64C16FC39B50C1 /* Pods-Mobio_App-tvOSTests.debug.xcconfig */,
+				DCEBB950538E0F81FE0A414B /* Pods-Mobio_App-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB06617725EE48F200F30E91 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				CB06617825EE48F200F30E91 /* NotificationService.h */,
+				CB06617925EE48F200F30E91 /* NotificationService.m */,
+				CB06617B25EE48F200F30E91 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		CB36569C25CE986400AD9785 /* CallCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CBDEDE3625D781F30021AF68 /* CallKitCall.h */,
+				CBDEDE3725D781F30021AF68 /* CallKitCall.m */,
+				CB71EB7A25D0DDB0009EA545 /* InstanceManager.h */,
+				CB71EB7925D0DDB0009EA545 /* InstanceManager.m */,
+				CB71EB7725D0DDB0009EA545 /* StringeeImplement.h */,
+				CB71EB7825D0DDB0009EA545 /* StringeeImplement.m */,
+				CBBB046825E127D00097C2AC /* CallUtils.h */,
+				CBBB046925E127D00097C2AC /* CallUtils.m */,
+				CB71EB5725D0D7C2009EA545 /* CallingVC */,
+				CB36569E25CE98F600AD9785 /* RNCallCenter.m */,
+				CB71EB6325D0DADF009EA545 /* RNCallCenter.h */,
+				CB3656F425CEFAB300AD9785 /* CallManager.h */,
+				CB3656F525CEFAC800AD9785 /* CallManager.m */,
+			);
+			path = CallCenter;
+			sourceTree = "<group>";
+		};
+		CB4A267826006264009637D6 /* PushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A267C2600633C009637D6 /* RNPushNotification.h */,
+				CB4A267D26006372009637D6 /* RNPushNotification.m */,
+			);
+			path = PushNotification;
+			sourceTree = "<group>";
+		};
+		CB71D0B3268E13BE007BE333 /* Fingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				CB71D0B4268E14ED007BE333 /* MoFingerprint.h */,
+				CB71D0B5268E151C007BE333 /* MoFingerprint.m */,
+			);
+			name = Fingerprint;
+			sourceTree = "<group>";
+		};
+		CB71EB5725D0D7C2009EA545 /* CallingVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBDEDE2F25D781DF0021AF68 /* CallControl.h */,
+				CBDEDE3025D781E00021AF68 /* CallControl.m */,
+				CBBB043425DE4A200097C2AC /* CallingViewController.h */,
+				CBBB043625DE4A200097C2AC /* CallingViewController.m */,
+				CBBB043525DE4A200097C2AC /* CallingViewController.xib */,
+				CBCD9F4F25E39B10007C3495 /* NumberPadView.xib */,
+				CBCD9F6825E3C5D5007C3495 /* NumberPadView.h */,
+				CBCD9F6925E3C5D5007C3495 /* NumberPadView.m */,
+				CBDE2FB62628473E0043ACC7 /* AssignView.xib */,
+				CBDE2FBE2628917C0043ACC7 /* AssignView.h */,
+				CBDE2FBF262892670043ACC7 /* AssignView.m */,
+				CB625BD2262A9763008CBCA5 /* AssignTableViewCell.h */,
+				CB625BD3262A9763008CBCA5 /* AssignTableViewCell.m */,
+				CB625BD4262A9763008CBCA5 /* AssignTableViewCell.xib */,
+			);
+			path = CallingVC;
+			sourceTree = "<group>";
+		};
+		CB7C45BB25CCE777002A8B22 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A18797C17BA6425AAEDE802D /* MobioAppIncoming.app */,
+				084AC818C2694B7B8994C009 /* MobioAppIncomingTests.xctest */,
+				462B8D2D8A5D4880970FCE2E /* MobioAppIncoming-tvOS.app */,
+				E41170EF2C6E48CB9740BB5E /* MobioAppIncoming-tvOSTests.xctest */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CB9C8A082562CCDC0075B574 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB9C8A3D2562CD150075B574 /* icomoon.ttf */,
+				CB8DF8AE26DB415700020876 /* logo.png */,
+				CB9C8A412562CD160075B574 /* SF-Pro-Text-Bold.ttf */,
+				CB9C8A3F2562CD150075B574 /* SF-Pro-Text-Medium.ttf */,
+				CB9C8A3C2562CD150075B574 /* SF-Pro-Text-Regular.ttf */,
+				CB9C8A3E2562CD150075B574 /* SFProText-Bold.ttf */,
+				CB9C8A402562CD150075B574 /* SFProText-Semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* Mobio_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Mobio_AppTests" */;
+			buildPhases = (
+				8EBC1D14EB1C571C2324DA26 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F3BAEB39EE8699E9604FBF6B /* [CP] Copy Pods Resources */,
+				4C50FDE73F10127ADE6E0EC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = Mobio_AppTests;
+			productName = Mobio_AppTests;
+			productReference = 00E356EE1AD99517003FC87E /* Mobio_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Mobio_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mobio_App" */;
+			buildPhases = (
+				7789BC53E2B3E4CBD4ECC097 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				887279C9628FEEBE8D0D6128 /* [CP] Copy Pods Resources */,
+				6B8C6110C1B7311BA6F6755E /* [CP] Embed Pods Frameworks */,
+				CB06616625EE31AF00F30E91 /* Embed App Extensions */,
+				01868446132E7CFEF66E1433 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB06617D25EE48F200F30E91 /* PBXTargetDependency */,
+			);
+			name = Mobio_App;
+			productName = Mobio_App;
+			productReference = 13B07F961A680F5B00A75B9A /* Mobio_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB06617525EE48F200F30E91 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB06617F25EE48F200F30E91 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				CB06617225EE48F200F30E91 /* Sources */,
+				CB06617325EE48F200F30E91 /* Frameworks */,
+				CB06617425EE48F200F30E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = CB06617625EE48F200F30E91 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = LQ9M25T5NT;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+					};
+					CB06617525EE48F200F30E91 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = Z532W7ANP2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mobio_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Mobio_App */,
+				00E356ED1AD99517003FC87E /* Mobio_AppTests */,
+				CB06617525EE48F200F30E91 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8DF8AF26DB415700020876 /* logo.png in Resources */,
+				CB625BD6262A9763008CBCA5 /* AssignTableViewCell.xib in Resources */,
+				CB9C8A4A2562CD5A0075B574 /* icomoon.ttf in Resources */,
+				CB9C8A4B2562CD5A0075B574 /* SF-Pro-Text-Bold.ttf in Resources */,
+				CB9C8A4C2562CD5A0075B574 /* SF-Pro-Text-Medium.ttf in Resources */,
+				CBBB043725DE4A200097C2AC /* CallingViewController.xib in Resources */,
+				CBCD9F5025E39B10007C3495 /* NumberPadView.xib in Resources */,
+				CB9C8A4D2562CD5A0075B574 /* SF-Pro-Text-Regular.ttf in Resources */,
+				CB9C8A4E2562CD5A0075B574 /* SFProText-Bold.ttf in Resources */,
+				CB9C8A4F2562CD5A0075B574 /* SFProText-Semibold.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Assets.xcassets in Resources */,
+				CBDE2FB72628473E0043ACC7 /* AssignView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB06617425EE48F200F30E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		01868446132E7CFEF66E1433 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		4C50FDE73F10127ADE6E0EC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8C6110C1B7311BA6F6755E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobio_App/Pods-Mobio_App-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobio_App/Pods-Mobio_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7789BC53E2B3E4CBD4ECC097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobio_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887279C9628FEEBE8D0D6128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobio_App/Pods-Mobio_App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobio_App/Pods-Mobio_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EBC1D14EB1C571C2324DA26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobio_App-Mobio_AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BAEB39EE8699E9604FBF6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobio_App-Mobio_AppTests/Pods-Mobio_App-Mobio_AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* Mobio_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4A267E26006372009637D6 /* RNPushNotification.m in Sources */,
+				CBBB043825DE4A200097C2AC /* CallingViewController.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CBDE2FC0262892680043ACC7 /* AssignView.m in Sources */,
+				CB36569F25CE98F600AD9785 /* RNCallCenter.m in Sources */,
+				CBCD9F6A25E3C5D5007C3495 /* NumberPadView.m in Sources */,
+				CB71EB7B25D0DDB0009EA545 /* StringeeImplement.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				CB625BD5262A9763008CBCA5 /* AssignTableViewCell.m in Sources */,
+				CBBB044125DE6ED80097C2AC /* RoundedButton.m in Sources */,
+				CBDEDE3825D781F30021AF68 /* CallKitCall.m in Sources */,
+				CBBB046A25E127D00097C2AC /* CallUtils.m in Sources */,
+				CBDEDE3125D781E00021AF68 /* CallControl.m in Sources */,
+				CB71EB7C25D0DDB0009EA545 /* InstanceManager.m in Sources */,
+				CB71D0B6268E151C007BE333 /* MoFingerprint.m in Sources */,
+				CB3656F625CEFAC800AD9785 /* CallManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB06617225EE48F200F30E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB06617A25EE48F200F30E91 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Mobio_App */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		CB06617D25EE48F200F30E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB06617525EE48F200F30E91 /* NotificationService */;
+			targetProxy = CB06617C25EE48F200F30E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F51257417700D4419243589 /* Pods-Mobio_App-Mobio_AppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mo-app-incoming-call/ios/MobioAppIncoming",
+				);
+				INFOPLIST_FILE = Mobio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobio_App.app/Mobio_App";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF3C59C9E57C1784F1BC95F /* Pods-Mobio_App-Mobio_AppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mo-app-incoming-call/ios/MobioAppIncoming",
+				);
+				INFOPLIST_FILE = Mobio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobio_App.app/Mobio_App";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81298FBD32065D402535193F /* Pods-Mobio_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mobio_App/Mobio_App.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Le Hung (G24226344F)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ9M25T5NT;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mo-app-incoming-call/ios/MobioAppIncoming",
+				);
+				INFOPLIST_FILE = Mobio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.cdp;
+				PRODUCT_NAME = Mobio_App;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011261F20855366EE52BE224 /* Pods-Mobio_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mobio_App/Mobio_App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z532W7ANP2;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mo-app-incoming-call/ios/MobioAppIncoming",
+				);
+				INFOPLIST_FILE = Mobio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.cdp;
+				PRODUCT_NAME = Mobio_App;
+				PROVISIONING_PROFILE_SPECIFIER = MobioCdpDis;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB06618025EE48F200F30E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z532W7ANP2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.2.8;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.cdp.notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MobioCdpServiceDev;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB06618125EE48F200F30E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z532W7ANP2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.2.8;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.cdp.notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MobioCdpServiceDis;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Mobio_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mobio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mobio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB06617F25EE48F200F30E91 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB06618025EE48F200F30E91 /* Debug */,
+				CB06618125EE48F200F30E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

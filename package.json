@@ -52,9 +52,9 @@
     "jest": "^26.6.3",
     "lodash": "^4.17.20",
     "metro-react-native-babel-preset": "^0.64.0",
-    "mo-app-common": "git+https://mobiodeveloper:54eef8c8a6faca078e557399ec97e82077a35765@gitbucket.mobio.vn/git/lenguyen/Mobio_App_Common.git#develop",
-    "mo-app-comp": "git+https://mobiodeveloper:54eef8c8a6faca078e557399ec97e82077a35765@gitbucket.mobio.vn/git/lenguyen/Mobio_App_Comp.git#develop",
-    "mo-app-layout": "git+https://mobiodeveloper:54eef8c8a6faca078e557399ec97e82077a35765@gitbucket.mobio.vn/git/lenguyen/Mobio_App_Layout.git#develop",
+    "mo-app-common": "https://github.com/nguyenlqxx82nb/mo-app-common.git",
+    "mo-app-comp": "https://github.com/nguyenlqxx82nb/mo-app-comp.git",
+    "mo-app-layout": "https://github.com/nguyenlqxx82nb/mo-app-layout.git",
     "moment": "^2.29.1",
     "react": "^17.0.0",
     "react-native": "0.63.3",
@@ -81,7 +81,8 @@
     "react-test-renderer": "16.13.1",
     "react-timer-mixin": "^0.13.4",
     "recyclerlistview": "^3.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "rn-fetch-blob": "^0.12.0"
   },
   "jest": {
     "preset": "react-native"
