@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xo17o4');
+  src:  url('fonts/icomoon.eot?xo17o4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xo17o4') format('truetype'),
+    url('fonts/icomoon.woff?xo17o4') format('woff'),
+    url('fonts/icomoon.svg?xo17o4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mo-icn-"], [class*=" mo-icn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mo-icn-upload_photo:before {
+  content: "\e94b";
+  color: #4e4e4e;
+}
+.mo-icn-edit:before {
+  content: "\e949";
+  color: #4e4e4e;
+}
+.mo-icn-delete:before {
+  content: "\e94a";
+  color: #4e4e4e;
+}
+.mo-icn-share:before {
+  content: "\e93f";
+  color: #4e4e4e;
+}
+.mo-icn-normal:before {
+  content: "\e940";
+  color: #4e4e4e;
+}
+.mo-icn-post_photos:before {
+  content: "\e941";
+  color: #4e4e4e;
+}
+.mo-icn-like:before {
+  content: "\e942";
+  color: #4e4e4e;
+}
+.mo-icn-liked:before {
+  content: "\e943";
+  color: #4e4e4e;
+}
+.mo-icn-send_personal_message:before {
+  content: "\e944";
+  color: #4e4e4e;
+}
+.mo-icn-comment:before {
+  content: "\e945";
+  color: #4e4e4e;
+}
+.mo-icn-link_to_fb:before {
+  content: "\e946";
+  color: #4e4e4e;
+}
+.mo-icn-bad:before {
+  content: "\e947";
+  color: #4e4e4e;
+}
+.mo-icn-contacted:before {
+  content: "\e948";
+  color: #4e4e4e;
+}
+.mo-icn-mkt_expand1:before {
+  content: "\e9fd";
+  color: #4e4e4e;
+}
+.mo-icn-mkt_collpased1:before {
+  content: "\e9fc";
+  color: #4e4e4e;
+}
+.mo-icn-sound-on:before {
+  content: "\e9c2";
+  color: #4e4e4e;
+}
+.mo-icn-sound-off:before {
+  content: "\e9c6";
+  color: #4e4e4e;
+}
+.mo-icn-Pause:before {
+  content: "\e993";
+  color: #4e4e4e;
+}
+.mo-icn-activate:before {
+  content: "\e995";
+  color: #4e4e4e;
+}
+.mo-icn-no_result:before {
+  content: "\e93e";
+  color: #4e4e4e;
+}
+.mo-icn-success_toast:before {
+  content: "\e93b";
+  color: #4e4e4e;
+}
+.mo-icn-warning_toast:before {
+  content: "\e93c";
+  color: #4e4e4e;
+}
+.mo-icn-error_toast:before {
+  content: "\e93d";
+  color: #4e4e4e;
+}
+.mo-icn-down:before {
+  content: "\e939";
+  color: #4e4e4e;
+}
+.mo-icn-up:before {
+  content: "\e93a";
+  color: #4e4e4e;
+}
+.mo-icn-video_preview:before {
+  content: "\e938";
+  color: #4e4e4e;
+}
+.mo-icn-active_state:before {
+  content: "\e937";
+  color: #4e4e4e;
+}
+.mo-icn-tag_profile:before {
+  content: "\e936";
+  color: #4e4e4e;
+}
+.mo-icn-collapse:before {
+  content: "\e935";
+  color: #4e4e4e;
+}
+.mo-icn-drop_down:before {
+  content: "\e904";
+  color: #4e4e4e;
+}
+.mo-icn-log_out:before {
+  content: "\e933";
+  color: #4e4e4e;
+}
+.mo-icn-setting:before {
+  content: "\e934";
+  color: #4e4e4e;
+}
+.mo-icn-load_data_error:before {
+  content: "\e92b";
+  color: #4e4e4e;
+}
+.mo-icn-work_done:before {
+  content: "\e92d";
+  color: #4e4e4e;
+}
+.mo-icn-single_file:before {
+  content: "\e92e";
+  color: #4e4e4e;
+}
+.mo-icn-media_photo:before {
+  content: "\e92f";
+  color: #4e4e4e;
+}
+.mo-icn-media_file:before {
+  content: "\e930";
+  color: #4e4e4e;
+}
+.mo-icn-load_data:before {
+  content: "\e931";
+  color: #4e4e4e;
+}
+.mo-icn-play_video:before {
+  content: "\e932";
+  color: #4e4e4e;
+}
+.mo-icn-error_connection:before {
+  content: "\e92a";
+  color: #4e4e4e;
+}
+.mo-icn-resend_mess:before {
+  content: "\e92c";
+  color: #4e4e4e;
+}
+.mo-icn-new_message:before {
+  content: "\e928";
+  color: #4e4e4e;
+}
+.mo-icn-responded_message:before {
+  content: "\e929";
+  color: #4e4e4e;
+}
+.mo-icn-unpin:before {
+  content: "\e914";
+  color: #4e4e4e;
+}
+.mo-icn-tooltip:before {
+  content: "\e915";
+  color: #4e4e4e;
+}
+.mo-icn-emoticon:before {
+  content: "\e916";
+  color: #4e4e4e;
+}
+.mo-icn-send_message:before {
+  content: "\e917";
+  color: #4e4e4e;
+}
+.mo-icn-browsing_info:before {
+  content: "\e918";
+  color: #4e4e4e;
+}
+.mo-icn-filter:before {
+  content: "\e919";
+  color: #4e4e4e;
+}
+.mo-icn-mark_done:before {
+  content: "\e91a";
+  color: #4e4e4e;
+}
+.mo-icn-assign_to1:before {
+  content: "\e91b";
+  color: #4e4e4e;
+}
+.mo-icn-reset:before {
+  content: "\e91c";
+  color: #4e4e4e;
+}
+.mo-icn-pinned:before {
+  content: "\e91d";
+  color: #4e4e4e;
+}
+.mo-icn-radio_empty:before {
+  content: "\e91e";
+  color: #4e4e4e;
+}
+.mo-icn-radio:before {
+  content: "\e91f";
+  color: #4e4e4e;
+}
+.mo-icn-add_job_tag:before {
+  content: "\e920";
+  color: #4e4e4e;
+}
+.mo-icn-add_media:before {
+  content: "\e921";
+  color: #4e4e4e;
+}
+.mo-icn-add_tag_profile:before {
+  content: "\e922";
+  color: #4e4e4e;
+}
+.mo-icn-popover_menu:before {
+  content: "\e923";
+  color: #4e4e4e;
+}
+.mo-icn-quick_response:before {
+  content: "\e924";
+  color: #4e4e4e;
+}
+.mo-icn-nav_back:before {
+  content: "\e925";
+  color: #4e4e4e;
+}
+.mo-icn-checkbox:before {
+  content: "\e926";
+  color: #4e4e4e;
+}
+.mo-icn-checkbox_empty:before {
+  content: "\e927";
+  color: #4e4e4e;
+}
+.mo-icn-error_user_block:before {
+  content: "\ea02";
+  color: #4e4e4e;
+}
+.mo-icn-received:before {
+  content: "\e9ed";
+  color: #4e4e4e;
+}
+.mo-icn-call_status:before {
+  content: "\e912";
+  color: #4e4e4e;
+}
+.mo-icn-hide_password:before {
+  content: "\e913";
+  color: #4e4e4e;
+}
+.mo-icn-Marketing:before {
+  content: "\e900";
+  color: #4e4e4e;
+}
+.mo-icn-view_detail:before {
+  content: "\e901";
+  color: #4e4e4e;
+}
+.mo-icn-Sale:before {
+  content: "\e902";
+  color: #4e4e4e;
+}
+.mo-icn-search:before {
+  content: "\e903";
+  color: #4e4e4e;
+}
+.mo-icn-hang_up:before {
+  content: "\e905";
+  color: #4e4e4e;
+}
+.mo-icn-mark_selected:before {
+  content: "\e906";
+  color: #4e4e4e;
+}
+.mo-icn-view_coded_info:before {
+  content: "\e907";
+  color: #4e4e4e;
+}
+.mo-icn-dial_pad:before {
+  content: "\e908";
+  color: #4e4e4e;
+}
+.mo-icn-no_speaker:before {
+  content: "\e909";
+  color: #4e4e4e;
+}
+.mo-icn-Calling:before {
+  content: "\e90a";
+  color: #4e4e4e;
+}
+.mo-icn-clear:before {
+  content: "\e90b";
+  color: #4e4e4e;
+}
+.mo-icn-close:before {
+  content: "\e90c";
+  color: #4e4e4e;
+}
+.mo-icn-Account:before {
+  content: "\e90d";
+  color: #4e4e4e;
+}
+.mo-icn-assign_to:before {
+  content: "\e90e";
+  color: #4e4e4e;
+}
+.mo-icn-call_centre:before {
+  content: "\e90f";
+  color: #4e4e4e;
+}
+.mo-icn-Social:before {
+  content: "\e910";
+  color: #4e4e4e;
+}
+.mo-icn-speaker:before {
+  content: "\e911";
+  color: #4e4e4e;
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "jsx": "react-native",
+    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./lib",
+    "sourceMap": true,
+    "strict": false,
+    "target": "ESNext",
+    "baseUrl": "./src/",
+    "paths": {
+      "@screen": ["screens"],
+      "@components": ["components"],
+      "@common": ["common"],
+      "@images": ["images"],
+      "@store": ["store"],
+      "@redux": ["redux"],
+      "@services": ["services"],
+      "@app": [""]
+    }
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules", 
+    "babel.config.js",
+    "jest.config.js"]
+}
