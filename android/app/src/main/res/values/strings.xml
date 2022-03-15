@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mobio</string>
+    <string name="notification_reject">Từ chối</string>
+    <string name="notification_answer">Trả lời</string>
+</resources>

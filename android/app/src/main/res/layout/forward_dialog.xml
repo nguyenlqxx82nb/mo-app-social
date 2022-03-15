@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trans">
+
+    <RelativeLayout
+        android:id="@+id/test_abc"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@drawable/bg_digit_dialog">
+
+<!--        <com.github.mmin18.widget.RealtimeBlurView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_height="380dp"-->
+<!--            app:realtimeBlurRadius="20dp"-->
+<!--            app:realtimeOverlayColor="#4000"/>-->
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_close_small_selector"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp">
+
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn nhóm chuyển tiếp"
+                    android:textColor="@color/text"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="16sp">
+
+                </TextView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:minHeight="100dp"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/list_view"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent"></ListView>
+
+                <TextView
+                    android:id="@+id/tv_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Không có nhóm chuyển tiếp "
+                    android:textColor="@color/greyLight"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/v_call_end"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_forward"
+                    android:layout_width="200dp"
+                    android:layout_height="38dp"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_solid_selector"
+                    android:text="Chuyển tiếp cuộc gọi"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:stateListAnimator="@null"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

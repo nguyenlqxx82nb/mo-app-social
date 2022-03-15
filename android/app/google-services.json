@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366305465127",
+    "project_id": "mobiocdp",
+    "storage_bucket": "mobiocdp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366305465127:android:d54266e357dad3c3970f02",
+        "android_client_info": {
+          "package_name": "com.mobio.cdp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366305465127-bhhi4jd1ipv2sc9e12o7glemcqtktu3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdmtra00CS7QCpod6Yk2KG0iTMbXZM1B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366305465127-bhhi4jd1ipv2sc9e12o7glemcqtktu3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

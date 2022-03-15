@@ -1,6 +1,0 @@
-module Pods_Mobio_App_Social_Mobio_App_SocialTests {
-  umbrella header "Pods-Mobio_App_Social-Mobio_App_SocialTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
